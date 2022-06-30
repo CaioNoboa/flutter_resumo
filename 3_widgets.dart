@@ -1,6 +1,4 @@
 /*
-Seção 3
-
 Widgets Importantes
   Configuração da App/Page:
     MaterialApp/CupertinoApp
