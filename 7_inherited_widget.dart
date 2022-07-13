@@ -14,4 +14,8 @@
       Funciona a partir de contextos, da árvore de contextos, a partir disso ocorrerá a comunicação.
 
       Acessaremos a partir do 'provider', método estático 'of'.
+
+      Há 3 tipos de widgets: stateless, statefull e inherited.
+
+      Acessamos o inherited widget a partir da árvore de componentes sem precisar passar informações de um componente para outro.
 */
