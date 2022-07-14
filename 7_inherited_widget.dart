@@ -18,4 +18,13 @@
       Há 3 tipos de widgets: stateless, statefull e inherited.
 
       Acessamos o inherited widget a partir da árvore de componentes sem precisar passar informações de um componente para outro.
+
+      Provider
+        Inserido em algum componente da árvore.
+        Será um container, um widget. A partir disso, todos os componentes filhos conseguirão acessar informações desse provider diretamente, sem necessidade de ferramentas de comunicação direta/indireta.
+        Acessaremos o provider a partir de 'of(context)'.
+
+        Quando o estado muda, o método buil é chamado novamente e a interface é atualizada. Mas em componente stateless é preciso passar informação via construtor para que haja atualização. Para que a interface seja atualizada utilizando o of(context), eventualmente será necessário statefull widget.
+
+        O provider não precisa ser definido na raiz da árvore, pode ser definido em um ramo da árvore. Mas ao fazer isso, esses dados não conseguirão ser acessados em componentes de outros ramos.
 */
