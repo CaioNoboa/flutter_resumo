@@ -23,4 +23,22 @@
 
     Não necessariamente o servidor agirá apenas pegando requisições, acessando o banco de dados, retornando informações.
     É provável que dentro do servidor tenha uma aplicação back-end, com lógica de negócio, validações, filtros, camadas.
+
+  Requisições HTTP
+    Padrão mais utilizado no mercado: Rest API
+    
+    Protocolo HTTP (hypertext transfer protocol), juntamente com HTTPS (s de secure), são responsáveis pela maior parte do tráfico da internet.
+    
+    Convenção: Endpoint HTTP (URL) + Método HTTP = ação
+      Com uma mesma URL, mas com métodos diferentes, teremos diferentes ações.
+      Essa convenção é usar os métodos HTTP para efetuar as operações CRUD (create, read, update, delete).
+    
+    Dados são geralmente transferindo no formato JSON (JavaScript Object Notation is a lightweight data-interchange format).
+    
+    Métodos HTTP (verbos):
+      GET - obter dados;
+      POST - inserir dados;
+      PATCH - atualiza dados (parte dos dados de um objeto);
+      PUT - substituir dados (ao invés de apenas atualizar uma parte dos dados de um objeto, substitui o objeto inteiro; é mais utilizado para atualização do que PATCH);
+      DELETE - exclui dados.
 */
